@@ -1,7 +1,7 @@
 @echo off
 setlocal enableextensions
 
-rem  Morrowind PNG -> WebP batch converter (IrfanView engine).
+rem  Morrowind PNG -> WebP batch converter (IrfanView engine, parallel).
 
 rem ===================== CONFIG =====================
 set "IRFANVIEW=C:\Program Files\IrfanView\i_view64.exe"
@@ -18,6 +18,9 @@ set "WEBP_LOSSLESS=0"
 set "WEBP_QUALITY=75"
 set "WEBP_METHOD=4"
 set "WEBP_PASSES=1"
+
+rem Parallel workers (blank = one per CPU core).
+set "WEBP_WORKERS="
 rem ==================================================
 
 
@@ -48,36 +51,15 @@ if not defined SOURCE (
     set /p "SOURCE=Input folder: "
 )
 
-rem Bail out first if nothing was entered (avoids expanding an empty var below).
 if not defined SOURCE goto :no_source_given
-
-rem Strip surrounding quotes (drag-and-drop adds them).
 set "SOURCE=%SOURCE:"=%"
-rem Strip a trailing backslash so relative paths are computed correctly.
 if "%SOURCE:~-1%"=="\" set "SOURCE=%SOURCE:~0,-1%"
-
 if not defined SOURCE   goto :no_source_given
 if not exist "%SOURCE%" goto :no_source_exist
 
-rem --- Write a private IrfanView ini with the WebP settings -----
-set "INI_FOLDER=%TEMP%\webp_thumbnails_irfanview"
-if not exist "%INI_FOLDER%" mkdir "%INI_FOLDER%"
-set "INI_FILE=%INI_FOLDER%\i_view64.ini"
-> "%INI_FILE%"  echo [WEBP]
->>"%INI_FILE%"  echo SaveOption=%WEBP_LOSSLESS%
->>"%INI_FILE%"  echo SaveQuality=%WEBP_QUALITY%
->>"%INI_FILE%"  echo Method=%WEBP_METHOD%
->>"%INI_FILE%"  echo Passes=%WEBP_PASSES%
->>"%INI_FILE%"  echo SavePreset=0
->>"%INI_FILE%"  echo SaveFilter=0
->>"%INI_FILE%"  echo SaveFilterStrength=60
->>"%INI_FILE%"  echo SaveSharpness=0
->>"%INI_FILE%"  echo SaveSharpnessValue=0
+set "WORKERS_ARG="
+if defined WEBP_WORKERS set "WORKERS_ARG=-workers %WEBP_WORKERS%"
 
-rem Length of SOURCE path, used to derive each folder's relative subpath.
-call :strlen SOURCE_LENGTH "%SOURCE%"
-
-echo.
 echo %C_INFO%Source  :%C_RESET% %SOURCE%
 echo %C_INFO%Output  :%C_RESET% %OUTPUT_DIRECTORY%
 echo %C_INFO%Profiles:%C_RESET% %RENDERS_DIRECTORY% (%RENDERS_SIZE%px), %THUMBNAILS_DIRECTORY% (%THUMBNAILS_SIZE%px)
@@ -86,11 +68,8 @@ echo.
 echo %C_HEAD%Converting...%C_RESET%
 echo.
 
-if not exist "%OUTPUT_DIRECTORY%" mkdir "%OUTPUT_DIRECTORY%"
-
-rem Process the source root, then every subfolder.
-call :convert_folder "%SOURCE%"
-for /d /r "%SOURCE%" %%D in (*) do call :convert_folder "%%D"
+powershell -ExecutionPolicy Bypass -File "%~dp0run_webp_parallel.ps1" -irfanview "%IRFANVIEW%" -input_dir "%SOURCE%" -output_dir "%OUTPUT_DIRECTORY%" -renders_name "%RENDERS_DIRECTORY%" -renders_size %RENDERS_SIZE% -thumbnails_name "%THUMBNAILS_DIRECTORY%" -thumbnails_size %THUMBNAILS_SIZE% -quality %WEBP_QUALITY% -method %WEBP_METHOD% -passes %WEBP_PASSES% -lossless %WEBP_LOSSLESS% %WORKERS_ARG%
+if errorlevel 1 goto :failed
 
 echo.
 echo %C_OK%Done.%C_RESET%
@@ -98,62 +77,12 @@ pause
 exit /b 0
 
 
-rem ------------------------------------------------------------
-rem  :convert_folder <folder>   -- convert all PNGs in one folder
-rem ------------------------------------------------------------
-:convert_folder
-set "FOLDER=%~1"
-if not exist "%FOLDER%\*.png" goto :eof
+:failed
+echo.
+echo %C_ERR%Finished with errors (some files may be missing).%C_RESET%
+pause
+exit /b 1
 
-setlocal enabledelayedexpansion
-rem Relative subpath (empty for the root, else \meshes\...).
-set "RELATIVE_PATH=!FOLDER:~%SOURCE_LENGTH%!"
-echo %C_DIM%  .!RELATIVE_PATH!%C_RESET%
-
-rem ---------------- PROFILES ----------------
-rem  One :convert_profile call per output profile.
-rem  Args: <sourceFolder> <relativeSubpath> <destinationBase> <sizePx>
-call :convert_profile "!FOLDER!" "!RELATIVE_PATH!" "%OUTPUT_DIRECTORY%\%RENDERS_DIRECTORY%"    %RENDERS_SIZE%
-call :convert_profile "!FOLDER!" "!RELATIVE_PATH!" "%OUTPUT_DIRECTORY%\%THUMBNAILS_DIRECTORY%" %THUMBNAILS_SIZE%
-rem ------------------------------------------
-
-endlocal
-goto :eof
-
-
-rem ------------------------------------------------------------
-rem  :convert_profile <sourceFolder> <relativeSubpath> <destinationBase> <sizePx>
-rem ------------------------------------------------------------
-:convert_profile
-setlocal enabledelayedexpansion
-set "SOURCE_FOLDER=%~1"
-set "RELATIVE_PATH=%~2"
-set "DESTINATION=%~3"
-set "SIZE=%~4"
-if not exist "%DESTINATION%!RELATIVE_PATH!" mkdir "%DESTINATION%!RELATIVE_PATH!"
-"%IRFANVIEW%" "%SOURCE_FOLDER%\*.png" /resize=(%SIZE%,%SIZE%) /aspectratio /resample /ini="%INI_FOLDER%" /convert="%DESTINATION%!RELATIVE_PATH!\*.webp"
-endlocal
-goto :eof
-
-
-rem ------------------------------------------------------------
-rem  :strlen <resultVar> <string>
-rem ------------------------------------------------------------
-:strlen
-setlocal enabledelayedexpansion
-set "s=%~2"
-set "n=0"
-:strlen_loop
-if defined s (
-    set "s=!s:~1!"
-    set /a n+=1
-    goto :strlen_loop
-)
-endlocal & set "%~1=%n%"
-goto :eof
-
-
-rem ------------------------------------------------------------
 :no_irfanview
 echo %C_ERR%ERROR: IrfanView not found at "%IRFANVIEW%".%C_RESET%
 pause
