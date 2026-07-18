@@ -11,7 +11,7 @@ rem ==================================================
 
 rem --- Console colours (ANSI, same palette as colors.py) -------
 for /f %%a in ('echo prompt $E ^| cmd') do set "esc=%%a"
-set "c_title=%esc%[96m"
+set "c_title=%esc%[38;2;202;165;96m"
 set "c_head=%esc%[95m"
 set "c_info=%esc%[94m"
 set "c_ok=%esc%[92m"
