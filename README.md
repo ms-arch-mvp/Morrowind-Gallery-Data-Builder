@@ -1,6 +1,6 @@
 <h1 align="center">Morrowind Gallery Data Builder</h1>
 <p align="center">
-  <a href="https://ms-arch.gitbook.io/morrowind-visualisation-project/morrowind-gallery-data-builder/functions">Documentation</a>
+  <a href="https://ms-arch.gitbook.io/morrowvis/morrowind-gallery-data-builder/functions">Documentation</a>
 </p>
   
 * `build_gallery_data.bat` generates filtered JSONs for galleries.
