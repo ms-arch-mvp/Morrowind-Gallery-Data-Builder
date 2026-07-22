@@ -6,7 +6,7 @@
 ### Prerequisites
 
 * [Python](https://www.python.org/downloads/) installation
-* [IrfanView](https://www.irfanview.com/) (for `build_gallery_images.bat`)
+* [IrfanView]
 * [IrfanView Plugins](https://www.irfanview.com/plugins.htm)
 * [Blender 5](https://www.blender.org/download/releases/5-0/)
 * [tes3conv](https://github.com/Greatness7/tes3conv) in Build_Gallery_Data
