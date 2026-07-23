@@ -1,0 +1,4456 @@
+{
+ "source_folder": "C:\\Users\\mark\\AppData\\Local\\ModOrganizer\\Morrowind\\mods\\Ald Skar Inn Overhaul",
+ "mode": "folder",
+ "node_filter": [],
+ "generated": "2026-07-23 07:38:38",
+ "nif_count": 4,
+ "failed_count": 0,
+ "nif_version": "4.0.0.2",
+ "note": "Per-vertex geometry (vertices, normals, uvs, vertex colours) is dropped; the triangle count is kept as a plain number. Object references are {'$ref': block_index}. Block indices follow root-traversal order; this matched NifSkope's on-disk numbering on the files spot-checked, but is not guaranteed to. es3 only reads NIF 4.0.0.2 (Morrowind) and raises on anything else -- such files appear in 'failed'.",
+ "failed": [],
+ "meshes": {
+  "meshes/dim/dim_r_balcotav1.nif": {
+   "num_blocks": 43,
+   "roots": [
+    0
+   ],
+   "blocks": [
+    {
+     "index": 0,
+     "type": "NiNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 1
+      },
+      {
+       "$ref": 4
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 0,
+     "name": "dim_r_balcotav1.nif",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 1,
+     "type": "RootCollisionNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 2
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 3,
+     "name": "Collision",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 2,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 3
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 9",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 3,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      35.648727,
+      22.022104
+     ],
+     "radius": 789.478516,
+     "triangles": 1906
+    },
+    {
+     "index": 4,
+     "type": "NiNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 5
+      },
+      {
+       "$ref": 10
+      },
+      {
+       "$ref": 14
+      },
+      {
+       "$ref": 18
+      },
+      {
+       "$ref": 22
+      },
+      {
+       "$ref": 26
+      },
+      {
+       "$ref": 30
+      },
+      {
+       "$ref": 34
+      },
+      {
+       "$ref": 38
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 12,
+     "name": "dim_balcotav1",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 5,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 9
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 0",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 7
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 6,
+     "type": "NiMaterialProperty",
+     "alpha": 1.0,
+     "ambient_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "controller": null,
+     "diffuse_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "emissive_color": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "extra_data": null,
+     "flags": 0,
+     "name": "Material #11.002",
+     "shine": 0.0,
+     "specular_color": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 7,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 8,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_block_adobe_white_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 9,
+     "type": "NiTriShapeData",
+     "center": [
+      -0.804573,
+      -126.982788,
+      388.28244
+     ],
+     "radius": 90.861427,
+     "triangles": 106
+    },
+    {
+     "index": 10,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 13
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 1",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 11
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 11,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 12,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_hut_00.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 13,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -226.576859,
+      52.52216
+     ],
+     "radius": 631.479492,
+     "triangles": 616
+    },
+    {
+     "index": 14,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 17
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 2",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 15
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 15,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 16,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_marble_red.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 17,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -173.873932,
+      -153.875397
+     ],
+     "radius": 492.162872,
+     "triangles": 148
+    },
+    {
+     "index": 18,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 21
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 3",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 19
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 19,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 20,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_tavern_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 21,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      374.934509,
+      133.561966
+     ],
+     "radius": 357.027527,
+     "triangles": 82
+    },
+    {
+     "index": 22,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 25
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 4",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 23
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 23,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 24,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_barracks_trim.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 25,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      39.159752,
+      16.223145
+     ],
+     "radius": 788.538147,
+     "triangles": 690
+    },
+    {
+     "index": 26,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 29
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 5",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 27
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 27,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 28,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_floor_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 29,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -279.52771,
+      21.54558
+     ],
+     "radius": 310.234375,
+     "triangles": 140
+    },
+    {
+     "index": 30,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 33
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 6",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 31
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 31,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 32,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_marble_white.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 33,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      46.881317,
+      82.972351
+     ],
+     "radius": 747.792908,
+     "triangles": 284
+    },
+    {
+     "index": 34,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 37
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 7",
+     "properties": [
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 35
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 35,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 36,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_wood_brown_posts_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 37,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -407.283203,
+      308.009888
+     ],
+     "radius": 321.745758,
+     "triangles": 110
+    },
+    {
+     "index": 38,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 42
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "dim_balcotav1 8",
+     "properties": [
+      {
+       "$ref": 39
+      },
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 40
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 39,
+     "type": "NiAlphaProperty",
+     "controller": null,
+     "extra_data": null,
+     "flags": 4333,
+     "name": "",
+     "test_ref": 0
+    },
+    {
+     "index": 40,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 41,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_guarskin_hut_03.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 42,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -392.486298,
+      302.31366
+     ],
+     "radius": 311.302551,
+     "triangles": 96
+    }
+   ]
+  },
+  "meshes/dim/dim_r_in_halfhall.nif": {
+   "num_blocks": 31,
+   "roots": [
+    0
+   ],
+   "blocks": [
+    {
+     "index": 0,
+     "type": "NiNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 1
+      },
+      {
+       "$ref": 2
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 0,
+     "name": "dim_r_in_halfhall.nif",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 1,
+     "type": "NiNode",
+     "bounding_volume": null,
+     "children": [],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 12,
+     "name": "in_redoranS_hall_03",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 2,
+     "type": "NiNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 3
+      },
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 11
+      },
+      {
+       "$ref": 15
+      },
+      {
+       "$ref": 19
+      },
+      {
+       "$ref": 23
+      },
+      {
+       "$ref": 27
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 12,
+     "name": "in_redoranS_hall_03.001",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 3,
+     "type": "RootCollisionNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 4
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 3,
+     "name": "Collision.008",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 4,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 5
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Object.003",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 5,
+     "type": "NiTriShapeData",
+     "center": [
+      -0.000396,
+      64.000496,
+      -7.499933
+     ],
+     "radius": 166.830231,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       2,
+       1,
+       3
+      ],
+      [
+       0,
+       4,
+       1
+      ],
+      [
+       2,
+       3,
+       5
+      ],
+      [
+       0,
+       6,
+       4
+      ],
+      [
+       5,
+       3,
+       7
+      ],
+      [
+       0,
+       8,
+       6
+      ],
+      [
+       5,
+       7,
+       9
+      ],
+      [
+       6,
+       8,
+       10
+      ],
+      [
+       11,
+       9,
+       7
+      ],
+      [
+       6,
+       10,
+       12
+      ],
+      [
+       11,
+       13,
+       9
+      ],
+      [
+       12,
+       10,
+       13
+      ],
+      [
+       12,
+       13,
+       11
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 10
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Tri in_redoranS_hall_03 0.001",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 8
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 7,
+     "type": "NiMaterialProperty",
+     "alpha": 1.0,
+     "ambient_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "controller": null,
+     "diffuse_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "emissive_color": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "extra_data": null,
+     "flags": 0,
+     "name": "adobe.036",
+     "shine": 0.0,
+     "specular_color": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 8,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 9,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_hut_00.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 10,
+     "type": "NiTriShapeData",
+     "center": [
+      8.9e-05,
+      64.00058,
+      -22.0
+     ],
+     "radius": 163.004181,
+     "triangles": 30
+    },
+    {
+     "index": 11,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 14
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Tri in_redoranS_hall_03 1.001",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 12
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 12,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 13,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_column_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 14,
+     "type": "NiTriShapeData",
+     "center": [
+      8.9e-05,
+      64.00058,
+      -79.998398
+     ],
+     "radius": 132.81012,
+     "triangles": 24
+    },
+    {
+     "index": 15,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 18
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Tri in_redoranS_hall_03 2.001",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 16
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 16,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 17,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_tile_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 18,
+     "type": "NiTriShapeData",
+     "center": [
+      1.2e-05,
+      64.000526,
+      110.999992
+     ],
+     "radius": 68.652252,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       2,
+       3,
+       0
+      ],
+      [
+       2,
+       4,
+       3
+      ],
+      [
+       0,
+       5,
+       1
+      ],
+      [
+       5,
+       6,
+       1
+      ],
+      [
+       5,
+       7,
+       6
+      ],
+      [
+       7,
+       8,
+       6
+      ],
+      [
+       7,
+       9,
+       8
+      ]
+     ]
+    },
+    {
+     "index": 19,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 22
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Tri in_redoranS_hall_03 3.001",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 20
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 20,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 21,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_border_adobe_darkbrown_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 22,
+     "type": "NiTriShapeData",
+     "center": [
+      1.2e-05,
+      64.000511,
+      -132.0
+     ],
+     "radius": 119.172615,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       2,
+       1,
+       3
+      ],
+      [
+       4,
+       5,
+       6
+      ],
+      [
+       6,
+       5,
+       7
+      ]
+     ]
+    },
+    {
+     "index": 23,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 26
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Tri in_redoranS_hall_03 4.001",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 24
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 24,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 25,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_border_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 26,
+     "type": "NiTriShapeData",
+     "center": [
+      1.2e-05,
+      64.000542,
+      43.999996
+     ],
+     "radius": 143.646088,
+     "triangles": 168
+    },
+    {
+     "index": 27,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 30
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Tri in_redoranS_hall_03 5.001",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 28
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 28,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 29,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_border_02.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 30,
+     "type": "NiTriShapeData",
+     "center": [
+      8.9e-05,
+      64.000511,
+      -14.999998
+     ],
+     "radius": 167.640564,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       2,
+       1,
+       3
+      ],
+      [
+       4,
+       5,
+       6
+      ],
+      [
+       4,
+       7,
+       5
+      ],
+      [
+       8,
+       9,
+       10
+      ],
+      [
+       10,
+       9,
+       11
+      ],
+      [
+       12,
+       13,
+       14
+      ],
+      [
+       12,
+       15,
+       13
+      ],
+      [
+       16,
+       17,
+       18
+      ],
+      [
+       16,
+       19,
+       17
+      ],
+      [
+       20,
+       21,
+       22
+      ],
+      [
+       22,
+       21,
+       23
+      ],
+      [
+       24,
+       25,
+       26
+      ],
+      [
+       26,
+       25,
+       27
+      ],
+      [
+       28,
+       29,
+       30
+      ],
+      [
+       28,
+       31,
+       29
+      ],
+      [
+       32,
+       33,
+       34
+      ],
+      [
+       34,
+       33,
+       35
+      ],
+      [
+       36,
+       37,
+       38
+      ],
+      [
+       38,
+       37,
+       39
+      ]
+     ]
+    }
+   ]
+  },
+  "meshes/dim/nrh_dim_in_r_tav1.nif": {
+   "num_blocks": 56,
+   "roots": [
+    0
+   ],
+   "blocks": [
+    {
+     "index": 0,
+     "type": "NiNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 1
+      },
+      {
+       "$ref": 16
+      },
+      {
+       "$ref": 21
+      },
+      {
+       "$ref": 25
+      },
+      {
+       "$ref": 29
+      },
+      {
+       "$ref": 33
+      },
+      {
+       "$ref": 37
+      },
+      {
+       "$ref": 42
+      },
+      {
+       "$ref": 46
+      },
+      {
+       "$ref": 50
+      },
+      {
+       "$ref": 54
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 8,
+     "name": "Scene Root.003",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 1,
+     "type": "RootCollisionNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 2
+      },
+      {
+       "$ref": 4
+      },
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 8
+      },
+      {
+       "$ref": 10
+      },
+      {
+       "$ref": 12
+      },
+      {
+       "$ref": 14
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 1,
+     "name": "Collision.005",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 2,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 3
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "collision_1.004",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 3,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -432.75528,
+      -192.233444
+     ],
+     "radius": 616.949524,
+     "triangles": 148
+    },
+    {
+     "index": 4,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 5
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "collision_1.005",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 5,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -102.20108,
+      -199.422165
+     ],
+     "radius": 203.166779,
+     "triangles": 36
+    },
+    {
+     "index": 6,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 7
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "collision_1.006",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 7,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -102.999969,
+      -209.540985
+     ],
+     "radius": 512.908447,
+     "triangles": 72
+    },
+    {
+     "index": 8,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 9
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "collision_2.003",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 9,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -662.981445,
+      -395.957581
+     ],
+     "radius": 658.578369,
+     "triangles": 140
+    },
+    {
+     "index": 10,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 11
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "collision_3.003",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      113.058617,
+      248.288391
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 11,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -439.209656,
+      13.25396
+     ],
+     "radius": 545.546631,
+     "triangles": 68
+    },
+    {
+     "index": 12,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 13
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "collision_4.003",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 13,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -539.699951,
+      -69.173431
+     ],
+     "radius": 799.428406,
+     "triangles": 392
+    },
+    {
+     "index": 14,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 15
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Object",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 15,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      7e-06,
+      -2.910972
+     ],
+     "radius": 168.215851,
+     "triangles": 32
+    },
+    {
+     "index": 16,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 20
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_In_RedoranHouse_border01.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 18
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 17,
+     "type": "NiMaterialProperty",
+     "alpha": 1.0,
+     "ambient_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "controller": null,
+     "diffuse_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "emissive_color": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "extra_data": null,
+     "flags": 0,
+     "name": "Material #2985.002",
+     "shine": 0.0,
+     "specular_color": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 18,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 19,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_border_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 20,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -522.244263,
+      -170.365494
+     ],
+     "radius": 701.833252,
+     "triangles": 180
+    },
+    {
+     "index": 21,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 24
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_In_RedoranHouse_border02.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 22
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 22,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 23,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_border_02.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 24,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -533.695984,
+      -220.258881
+     ],
+     "radius": 710.053284,
+     "triangles": 1820
+    },
+    {
+     "index": 25,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 28
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_In_RedoranHouse_floor.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 26
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 26,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 27,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_floor_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 28,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -596.238464,
+      -442.46283
+     ],
+     "radius": 583.20874,
+     "triangles": 64
+    },
+    {
+     "index": 29,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 32
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_In_RedoranHouse_hut.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 30
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 30,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 31,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_hut_00.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 32,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -477.697052,
+      -82.030083
+     ],
+     "radius": 749.137573,
+     "triangles": 1059
+    },
+    {
+     "index": 33,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 36
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_In_RedoranHouse_hut03.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 34
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 34,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 35,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_hut_03.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 36,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -709.082275,
+      -402.068726
+     ],
+     "radius": 549.716553,
+     "triangles": 28
+    },
+    {
+     "index": 37,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 41
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_In_ReroranHouse_adobewhite.003",
+     "properties": [
+      {
+       "$ref": 38
+      },
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 39
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      1.195937,
+      54.194736,
+      119.380905
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 38,
+     "type": "NiAlphaProperty",
+     "controller": null,
+     "extra_data": null,
+     "flags": 4333,
+     "name": "",
+     "test_ref": 0
+    },
+    {
+     "index": 39,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 40,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_block_adobe_white_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 41,
+     "type": "NiTriShapeData",
+     "center": [
+      -1.706055,
+      -485.981049,
+      418.744171
+     ],
+     "radius": 62.769802,
+     "triangles": 118
+    },
+    {
+     "index": 42,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 45
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_RedoranHose_marble.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 43
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      1.195931,
+      54.194736,
+      119.380905
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 43,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 44,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_marble_white.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 45,
+     "type": "NiTriShapeData",
+     "center": [
+      1.195908,
+      -365.264282,
+      -83.192924
+     ],
+     "radius": 476.990417,
+     "triangles": 76
+    },
+    {
+     "index": 46,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 49
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_RedoranHose_tile.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 47
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 47,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 48,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_tile_01.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 49,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -402.037537,
+      -204.094238
+     ],
+     "radius": 590.574097,
+     "triangles": 164
+    },
+    {
+     "index": 50,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 53
+     },
+     "extra_data": null,
+     "flags": 0,
+     "name": "NRH_De_RedoranHose_trim.003",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 51
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      2.391875,
+      108.389473,
+      238.76181
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 51,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 52,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_redoran_barracks_trim.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 53,
+     "type": "NiTriShapeData",
+     "center": [
+      0.0,
+      -419.459198,
+      -202.573898
+     ],
+     "radius": 481.936523,
+     "triangles": 80
+    },
+    {
+     "index": 54,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 55
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "Tri In_redoran_Sdoorjamb_01 2",
+     "properties": [
+      {
+       "$ref": 17
+      },
+      {
+       "$ref": 18
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 55,
+     "type": "NiTriShapeData",
+     "center": [
+      -0.000113,
+      7e-06,
+      -30.000061
+     ],
+     "radius": 122.092957,
+     "triangles": 60
+    }
+   ]
+  },
+  "meshes/va/va_adelecurtain_01.nif": {
+   "num_blocks": 19,
+   "roots": [
+    0
+   ],
+   "blocks": [
+    {
+     "index": 0,
+     "type": "NiNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 1
+      },
+      {
+       "$ref": 6
+      },
+      {
+       "$ref": 11
+      },
+      {
+       "$ref": 15
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 12,
+     "name": "",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 1,
+     "type": "RootCollisionNode",
+     "bounding_volume": null,
+     "children": [
+      {
+       "$ref": 2
+      },
+      {
+       "$ref": 4
+      }
+     ],
+     "controller": null,
+     "effects": [],
+     "extra_data": null,
+     "flags": 3,
+     "name": "",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 2,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 3
+     },
+     "extra_data": null,
+     "flags": 2,
+     "name": "",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 3,
+     "type": "NiTriShapeData",
+     "center": [
+      -52.749847,
+      23.239433,
+      106.23745
+     ],
+     "radius": 104.594971,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       0,
+       3,
+       1
+      ],
+      [
+       2,
+       1,
+       4
+      ],
+      [
+       4,
+       1,
+       3
+      ],
+      [
+       2,
+       5,
+       0
+      ],
+      [
+       5,
+       3,
+       0
+      ],
+      [
+       2,
+       4,
+       6
+      ],
+      [
+       2,
+       6,
+       5
+      ],
+      [
+       4,
+       3,
+       7
+      ],
+      [
+       6,
+       4,
+       7
+      ],
+      [
+       5,
+       7,
+       3
+      ],
+      [
+       6,
+       7,
+       5
+      ]
+     ]
+    },
+    {
+     "index": 4,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 5
+     },
+     "extra_data": null,
+     "flags": 2,
+     "name": "",
+     "properties": [],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 5,
+     "type": "NiTriShapeData",
+     "center": [
+      -0.030133,
+      23.453194,
+      207.414276
+     ],
+     "radius": 79.5383,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       0,
+       3,
+       1
+      ],
+      [
+       1,
+       4,
+       2
+      ],
+      [
+       4,
+       1,
+       3
+      ],
+      [
+       2,
+       5,
+       0
+      ],
+      [
+       0,
+       5,
+       3
+      ],
+      [
+       2,
+       6,
+       5
+      ],
+      [
+       4,
+       3,
+       7
+      ],
+      [
+       6,
+       2,
+       8
+      ],
+      [
+       4,
+       8,
+       2
+      ],
+      [
+       6,
+       9,
+       5
+      ],
+      [
+       6,
+       8,
+       9
+      ],
+      [
+       10,
+       8,
+       4
+      ],
+      [
+       10,
+       4,
+       7
+      ],
+      [
+       8,
+       11,
+       9
+      ],
+      [
+       8,
+       10,
+       11
+      ],
+      [
+       9,
+       11,
+       5
+      ],
+      [
+       10,
+       7,
+       11
+      ],
+      [
+       5,
+       11,
+       3
+      ],
+      [
+       7,
+       3,
+       11
+      ]
+     ]
+    },
+    {
+     "index": 6,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 10
+     },
+     "extra_data": null,
+     "flags": 4,
+     "name": "",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 8
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 7,
+     "type": "NiMaterialProperty",
+     "alpha": 1.0,
+     "ambient_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "controller": null,
+     "diffuse_color": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "emissive_color": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "extra_data": null,
+     "flags": 1,
+     "name": "",
+     "shine": 0.0,
+     "specular_color": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 8,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 1,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 9,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_de_tapestry_04.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 10,
+     "type": "NiTriShapeData",
+     "center": [
+      -39.111176,
+      17.15996,
+      106.393944
+     ],
+     "radius": 110.468948,
+     "triangles": 648
+    },
+    {
+     "index": 11,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 14
+     },
+     "extra_data": null,
+     "flags": 2,
+     "name": "",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 12
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 12,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 13,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_wood_oldwood_rings.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 14,
+     "type": "NiTriShapeData",
+     "center": [
+      -0.03013,
+      23.453194,
+      207.414276
+     ],
+     "radius": 79.538292,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       3,
+       2,
+       1
+      ],
+      [
+       4,
+       2,
+       3
+      ],
+      [
+       5,
+       3,
+       1
+      ],
+      [
+       6,
+       7,
+       8
+      ],
+      [
+       9,
+       8,
+       7
+      ],
+      [
+       10,
+       8,
+       9
+      ],
+      [
+       11,
+       9,
+       7
+      ]
+     ]
+    },
+    {
+     "index": 15,
+     "type": "NiTriShape",
+     "bounding_volume": null,
+     "controller": null,
+     "data": {
+      "$ref": 18
+     },
+     "extra_data": null,
+     "flags": 2,
+     "name": "",
+     "properties": [
+      {
+       "$ref": 7
+      },
+      {
+       "$ref": 16
+      }
+     ],
+     "rotation": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ],
+     "scale": 1.0,
+     "skin": null,
+     "translation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "velocity": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "index": 16,
+     "type": "NiTexturingProperty",
+     "apply_mode": 2,
+     "base_texture": {
+      "$ref": -1
+     },
+     "bump_map_texture": null,
+     "controller": null,
+     "dark_texture": null,
+     "decal_0_texture": null,
+     "decal_1_texture": null,
+     "decal_2_texture": null,
+     "decal_3_texture": null,
+     "detail_texture": null,
+     "extra_data": null,
+     "flags": 0,
+     "gloss_texture": null,
+     "glow_texture": null,
+     "name": ""
+    },
+    {
+     "index": 17,
+     "type": "NiSourceTexture",
+     "alpha_format": 3,
+     "controller": null,
+     "extra_data": null,
+     "filename": "tx_wood_oldwood_scarred.dds",
+     "is_static": 1,
+     "name": "",
+     "pixel_data": null,
+     "pixel_layout": 5,
+     "use_mipmaps": 1
+    },
+    {
+     "index": 18,
+     "type": "NiTriShapeData",
+     "center": [
+      -0.030136,
+      23.453194,
+      207.414276
+     ],
+     "radius": 79.538292,
+     "triangles": [
+      [
+       0,
+       1,
+       2
+      ],
+      [
+       0,
+       3,
+       1
+      ],
+      [
+       2,
+       4,
+       0
+      ],
+      [
+       2,
+       5,
+       4
+      ],
+      [
+       5,
+       6,
+       4
+      ],
+      [
+       5,
+       7,
+       6
+      ],
+      [
+       7,
+       8,
+       6
+      ],
+      [
+       7,
+       9,
+       8
+      ],
+      [
+       9,
+       10,
+       8
+      ],
+      [
+       9,
+       11,
+       10
+      ],
+      [
+       11,
+       12,
+       10
+      ],
+      [
+       11,
+       13,
+       12
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}
